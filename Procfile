@@ -1,1 +1,1 @@
-worker: bundle exec sidekiq -e $RAILS_ENV
+worker: bundle exec sidekiq -v -e $RAILS_ENV
