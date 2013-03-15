@@ -14,3 +14,4 @@ class MyWorker
 		end
 		MyWorker.perform_async
 	end
+end
