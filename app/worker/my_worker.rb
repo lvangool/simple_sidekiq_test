@@ -2,7 +2,7 @@
 class MyWorker
 
 	include Sidekiq::Worker
-	SECONDS = 30
+	SECONDS = 120
 
 	def perform
 		File.open("/tmp/sidekiq_test_output.txt", 'a+') do |f2|
